@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram - Iniciar sesión</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Caja de inicio de sesión -->
+        <div class="login-box">
+            <!-- Logo de Instagram -->
+            <img src="https://www.vidanuevaparaelmundo.org/wp-content/uploads/2021/11/Instagram-logotipo-blanco.png" alt="Instagram" class="logo">
+            <!-- Formulario de inicio de sesión -->
+            <form action="login.php" method="POST">
+                <input type="text" name="username" placeholder="Teléfono, usuario o correo" required>
+                <input type="password" name="password" placeholder="Contraseña" required>
+                <button type="submit">Iniciar sesión</button>
+            </form>
+            
+            <!-- Separador -->
+            <div class="separator">
+                <span></span>
+                <p>O</p>
+                <span></span>
+            </div>
+            <!-- Botón de inicio de sesión con Facebook -->
+            <button class="fb-login">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Logo"> Iniciar sesión con Facebook
+            </button>
+            <!-- Enlace para la contraseña olvidada -->
+            <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+        </div>
+        <!-- Caja para registro -->
+        <div class="register-box">
+            <p>¿No tienes una cuenta? <a href="#">Regístrate</a></p>
+        </div>
+    </div>
+</body>
+</html>

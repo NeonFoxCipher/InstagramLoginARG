@@ -1,0 +1,139 @@
+/* Resetear márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo y disposición del cuerpo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000; /* Fondo oscuro */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Caja del login con fondo oscuro y bordes redondeados */
+.login-box {
+    background: #000000; /* Fondo oscuro para la caja */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 360px;
+    margin-bottom: 30px;
+    border: 2px solid #575757;  /* Añadido borde blanco */
+}
+
+/* Logo de Instagram con tamaño ajustado */
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos de entrada (input) */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #222; /* Fondo oscuro para los inputs */
+    color: #fff; /* Texto blanco */
+}
+
+/* Estilos para el botón de iniciar sesión */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0095f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Separador con el texto "O" */
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.separator span {
+    flex: 1;
+    height: 1px;
+    background: #555;
+}
+
+.separator p {
+    margin: 0 10px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Botón para iniciar sesión con Facebook */
+.fb-login {
+    background: none;
+    color: #225ddf;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none
+}
+
+.fb-login img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+/* Enlace para "Olvidaste tu contraseña" */
+.forgot-password {
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Caja de registro */
+.register-box {
+    background: #000000;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    width: 360px;
+    text-align: center;
+    border: 2px solid #575757;  /* Añadido borde blanco */
+}
+
+.register-box a {
+    color: #0095f6;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Estilo para la caja de registro */
+.register-box p {
+    color: #ccc;
+    font-size: 14px;
+    margin-top: 10px;
+}
